@@ -1,7 +1,9 @@
 package com.example.notesappkotlin.activity
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.notesappkotlin.MainActivity
 import com.example.notesappkotlin.R
 import com.example.notesappkotlin.databinding.ActivitySecondScreenBinding
 
@@ -12,7 +14,10 @@ class SecondScreen : AppCompatActivity() {
         binding = ActivitySecondScreenBinding.inflate(layoutInflater)
         setContentView(binding.root)
         clickBottoni()
+
     }
+
+
 
     private fun clickBottoni() {
         //qui inserisco tutti i click dei bottoni
@@ -42,4 +47,5 @@ class SecondScreen : AppCompatActivity() {
             binding.editTextText.setHintTextColor(resources.getColor(R.color.black))
         }
     }
+
 }

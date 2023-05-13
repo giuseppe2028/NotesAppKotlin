@@ -16,8 +16,15 @@ class MainActivity : AppCompatActivity() {
     var v1:ItemsViewModel = ItemsViewModel("Cose da fare","Mangiare il cioccolato", 244,184,160)
     var v2:ItemsViewModel = ItemsViewModel("Cose da mangiare","Mangiare il cioccolato",236,240,174)
     var v3:ItemsViewModel = ItemsViewModel("Ricetta Pizza","Mettere la farina",205,161,220)
+    var v4:ItemsViewModel = ItemsViewModel("Ricetta Pizza","Mettere la farina",205,161,220)
+    var v5:ItemsViewModel = ItemsViewModel("Ricetta Pizza","Mettere la farina",205,161,220)
+    var v6:ItemsViewModel = ItemsViewModel("Cose da fare","Mangiare il cioccolato", 244,184,160)
+    var v7:ItemsViewModel = ItemsViewModel("Cose da mangiare","Mangiare il cioccolato",236,240,174)
+    var v8:ItemsViewModel = ItemsViewModel("Ricetta Pizza","Mettere la farina",205,161,220)
+    var v9:ItemsViewModel = ItemsViewModel("Ricetta Pizza","Mettere la farina",205,161,220)
+    var v10:ItemsViewModel = ItemsViewModel("Ricetta Pizza","Mettere la farina",205,161,220)
 
-   val lista:List<ItemsViewModel> = listOf(v1,v2,v3)
+   val lista:List<ItemsViewModel> = listOf(v1,v2,v3,v4,v5,v6,v7,v8,v9,v10)
     private lateinit var binding:ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
