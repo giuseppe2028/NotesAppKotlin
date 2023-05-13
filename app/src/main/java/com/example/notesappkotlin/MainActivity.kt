@@ -1,9 +1,11 @@
 package com.example.notesappkotlin
 
+import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.notesappkotlin.activity.SecondScreen
 import com.example.notesappkotlin.classes.CustomAdapter
 import com.example.notesappkotlin.classes.ItemsViewModel
 import com.example.notesappkotlin.databinding.ActivityMainBinding
@@ -24,5 +26,15 @@ class MainActivity : AppCompatActivity() {
         binding.recyclerView.layoutManager = LinearLayoutManager(this)
         val adapter = CustomAdapter(lista)
         binding.recyclerView.adapter = adapter
+        binding.floatingActionButton.setOnClickListener{
+            click()
+        }
     }
+
+    fun click(){
+        val i = Intent(this,SecondScreen::class.java)
+        startActivity(i)
+
+    }
+
 }

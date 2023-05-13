@@ -4,4 +4,9 @@
     <color name="white">#FFFFFFFF</color>
     <color name="lightBlack">#2D2727</color>
     <color name="rosso">#E21818</color>
+    <color name="primo">#F4B8A0</color>
+    <color name="secondo">#ECF0AE</color>
+    <color name="terzo">#CDA1DC</color>
+    <color name="quarto">#9FDFEB</color>
+    <color name="quinto">#E89EB9</color>
 </resources>
